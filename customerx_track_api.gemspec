@@ -1,9 +1,9 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'getnet_api/version'
+require 'customerx_track_api/version'
 
 Gem::Specification.new do |spec|
-  spec.name                   = "getnet_api"
+  spec.name                   = "customerx_track_api"
   spec.version                = GetnetApi::Version::STRING
   spec.platform               = Gem::Platform::RUBY
   spec.authors                = ["Daniel B. Brumazzi"]
